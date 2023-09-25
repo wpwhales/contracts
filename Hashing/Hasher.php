@@ -1,6 +1,6 @@
 <?php
 
-namespace Illuminate\Contracts\Hashing;
+namespace WPWhales\Contracts\Hashing;
 
 interface Hasher
 {

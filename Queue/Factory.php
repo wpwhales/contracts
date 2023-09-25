@@ -1,6 +1,6 @@
 <?php
 
-namespace Illuminate\Contracts\Queue;
+namespace WPWhales\Contracts\Queue;
 
 interface Factory
 {
@@ -8,7 +8,7 @@ interface Factory
      * Resolve a queue connection instance.
      *
      * @param  string|null  $name
-     * @return \Illuminate\Contracts\Queue\Queue
+     * @return \WPWhales\Contracts\Queue\Queue
      */
     public function connection($name = null);
 }

@@ -1,8 +1,8 @@
 <?php
 
-namespace Illuminate\Contracts\Foundation;
+namespace WPWhales\Contracts\Foundation;
 
-use Illuminate\Contracts\Container\Container;
+use WPWhales\Contracts\Container\Container;
 
 interface Application extends Container
 {
@@ -109,7 +109,7 @@ interface Application extends Container
     /**
      * Get an instance of the maintenance mode manager implementation.
      *
-     * @return \Illuminate\Contracts\Foundation\MaintenanceMode
+     * @return \WPWhales\Contracts\Foundation\MaintenanceMode
      */
     public function maintenanceMode();
 
@@ -130,9 +130,9 @@ interface Application extends Container
     /**
      * Register a service provider with the application.
      *
-     * @param  \Illuminate\Support\ServiceProvider|string  $provider
+     * @param  \WPWhales\Support\ServiceProvider|string  $provider
      * @param  bool  $force
-     * @return \Illuminate\Support\ServiceProvider
+     * @return \WPWhales\Support\ServiceProvider
      */
     public function register($provider, $force = false);
 
@@ -149,7 +149,7 @@ interface Application extends Container
      * Resolve a service provider instance from the class name.
      *
      * @param  string  $provider
-     * @return \Illuminate\Support\ServiceProvider
+     * @return \WPWhales\Support\ServiceProvider
      */
     public function resolveProvider($provider);
 
@@ -203,7 +203,7 @@ interface Application extends Container
     /**
      * Get the registered service provider instances if any exist.
      *
-     * @param  \Illuminate\Support\ServiceProvider|string  $provider
+     * @param  \WPWhales\Support\ServiceProvider|string  $provider
      * @return array
      */
     public function getProviders($provider);
@@ -241,7 +241,7 @@ interface Application extends Container
      * Register a terminating callback with the application.
      *
      * @param  callable|string  $callback
-     * @return \Illuminate\Contracts\Foundation\Application
+     * @return \WPWhales\Contracts\Foundation\Application
      */
     public function terminating($callback);
 

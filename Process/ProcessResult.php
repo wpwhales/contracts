@@ -1,6 +1,6 @@
 <?php
 
-namespace Illuminate\Contracts\Process;
+namespace WPWhales\Contracts\Process;
 
 interface ProcessResult
 {

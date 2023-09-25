@@ -1,23 +1,23 @@
 <?php
 
-namespace Illuminate\Contracts\Mail;
+namespace WPWhales\Contracts\Mail;
 
-use Illuminate\Contracts\Queue\Factory as Queue;
+use WPWhales\Contracts\Queue\Factory as Queue;
 
 interface Mailable
 {
     /**
      * Send the message using the given mailer.
      *
-     * @param  \Illuminate\Contracts\Mail\Factory|\Illuminate\Contracts\Mail\Mailer  $mailer
-     * @return \Illuminate\Mail\SentMessage|null
+     * @param  \WPWhales\Contracts\Mail\Factory|\WPWhales\Contracts\Mail\Mailer  $mailer
+     * @return \WPWhales\Mail\SentMessage|null
      */
     public function send($mailer);
 
     /**
      * Queue the given message.
      *
-     * @param  \Illuminate\Contracts\Queue\Factory  $queue
+     * @param  \WPWhales\Contracts\Queue\Factory  $queue
      * @return mixed
      */
     public function queue(Queue $queue);
@@ -26,7 +26,7 @@ interface Mailable
      * Deliver the queued message after (n) seconds.
      *
      * @param  \DateTimeInterface|\DateInterval|int  $delay
-     * @param  \Illuminate\Contracts\Queue\Factory  $queue
+     * @param  \WPWhales\Contracts\Queue\Factory  $queue
      * @return mixed
      */
     public function later($delay, Queue $queue);

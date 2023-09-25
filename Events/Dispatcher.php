@@ -1,6 +1,6 @@
 <?php
 
-namespace Illuminate\Contracts\Events;
+namespace WPWhales\Contracts\Events;
 
 interface Dispatcher
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace Illuminate\Contracts\Session\Middleware;
+namespace WPWhales\Contracts\Session\Middleware;
 
 interface AuthenticatesSessions
 {

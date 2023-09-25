@@ -1,6 +1,6 @@
 <?php
 
-namespace Illuminate\Contracts\Encryption;
+namespace WPWhales\Contracts\Encryption;
 
 interface StringEncrypter
 {
@@ -10,7 +10,7 @@ interface StringEncrypter
      * @param  string  $value
      * @return string
      *
-     * @throws \Illuminate\Contracts\Encryption\EncryptException
+     * @throws \WPWhales\Contracts\Encryption\EncryptException
      */
     public function encryptString($value);
 
@@ -20,7 +20,7 @@ interface StringEncrypter
      * @param  string  $payload
      * @return string
      *
-     * @throws \Illuminate\Contracts\Encryption\DecryptException
+     * @throws \WPWhales\Contracts\Encryption\DecryptException
      */
     public function decryptString($payload);
 }

@@ -1,6 +1,6 @@
 <?php
 
-namespace Illuminate\Contracts\Console;
+namespace WPWhales\Contracts\Console;
 
 interface Kernel
 {
@@ -35,7 +35,7 @@ interface Kernel
      *
      * @param  string  $command
      * @param  array  $parameters
-     * @return \Illuminate\Foundation\Bus\PendingDispatch
+     * @return \WPWhales\Foundation\Bus\PendingDispatch
      */
     public function queue($command, array $parameters = []);
 

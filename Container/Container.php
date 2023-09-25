@@ -1,6 +1,6 @@
 <?php
 
-namespace Illuminate\Contracts\Container;
+namespace WPWhales\Contracts\Container;
 
 use Closure;
 use Psr\Container\ContainerInterface;
@@ -142,7 +142,7 @@ interface Container extends ContainerInterface
      * Define a contextual binding.
      *
      * @param  string|array  $concrete
-     * @return \Illuminate\Contracts\Container\ContextualBindingBuilder
+     * @return \WPWhales\Contracts\Container\ContextualBindingBuilder
      */
     public function when($concrete);
 
@@ -168,7 +168,7 @@ interface Container extends ContainerInterface
      * @param  array  $parameters
      * @return mixed
      *
-     * @throws \Illuminate\Contracts\Container\BindingResolutionException
+     * @throws \WPWhales\Contracts\Container\BindingResolutionException
      */
     public function make($abstract, array $parameters = []);
 

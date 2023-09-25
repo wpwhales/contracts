@@ -1,6 +1,6 @@
 <?php
 
-namespace Illuminate\Contracts\Queue;
+namespace WPWhales\Contracts\Queue;
 
 interface ShouldQueue
 {

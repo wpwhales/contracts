@@ -1,8 +1,8 @@
 <?php
 
-namespace Illuminate\Contracts\Validation;
+namespace WPWhales\Contracts\Validation;
 
-use Illuminate\Contracts\Support\MessageProvider;
+use WPWhales\Contracts\Support\MessageProvider;
 
 interface Validator extends MessageProvider
 {
@@ -11,7 +11,7 @@ interface Validator extends MessageProvider
      *
      * @return array
      *
-     * @throws \Illuminate\Validation\ValidationException
+     * @throws \WPWhales\Validation\ValidationException
      */
     public function validate();
 
@@ -20,7 +20,7 @@ interface Validator extends MessageProvider
      *
      * @return array
      *
-     * @throws \Illuminate\Validation\ValidationException
+     * @throws \WPWhales\Validation\ValidationException
      */
     public function validated();
 
@@ -59,7 +59,7 @@ interface Validator extends MessageProvider
     /**
      * Get all of the validation error messages.
      *
-     * @return \Illuminate\Support\MessageBag
+     * @return \WPWhales\Support\MessageBag
      */
     public function errors();
 }

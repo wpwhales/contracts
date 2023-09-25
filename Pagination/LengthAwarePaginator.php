@@ -1,6 +1,6 @@
 <?php
 
-namespace Illuminate\Contracts\Pagination;
+namespace WPWhales\Contracts\Pagination;
 
 interface LengthAwarePaginator extends Paginator
 {

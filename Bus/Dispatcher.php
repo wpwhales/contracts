@@ -1,6 +1,6 @@
 <?php
 
-namespace Illuminate\Contracts\Bus;
+namespace WPWhales\Contracts\Bus;
 
 interface Dispatcher
 {

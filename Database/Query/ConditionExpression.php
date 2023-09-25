@@ -1,6 +1,6 @@
 <?php
 
-namespace Illuminate\Contracts\Database\Query;
+namespace WPWhales\Contracts\Database\Query;
 
 interface ConditionExpression extends Expression
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace Illuminate\Contracts\Validation;
+namespace WPWhales\Contracts\Validation;
 
 interface UncompromisedVerifier
 {

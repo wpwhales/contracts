@@ -1,13 +1,13 @@
 <?php
 
-namespace Illuminate\Contracts\Mail;
+namespace WPWhales\Contracts\Mail;
 
 interface Attachable
 {
     /**
      * Get an attachment instance for this entity.
      *
-     * @return \Illuminate\Mail\Attachment
+     * @return \WPWhales\Mail\Attachment
      */
     public function toMailAttachment();
 }

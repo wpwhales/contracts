@@ -1,6 +1,6 @@
 <?php
 
-namespace Illuminate\Contracts\Notifications;
+namespace WPWhales\Contracts\Notifications;
 
 interface Factory
 {
@@ -15,7 +15,7 @@ interface Factory
     /**
      * Send the given notification to the given notifiable entities.
      *
-     * @param  \Illuminate\Support\Collection|array|mixed  $notifiables
+     * @param  \WPWhales\Support\Collection|array|mixed  $notifiables
      * @param  mixed  $notification
      * @return void
      */
@@ -24,7 +24,7 @@ interface Factory
     /**
      * Send the given notification immediately.
      *
-     * @param  \Illuminate\Support\Collection|array|mixed  $notifiables
+     * @param  \WPWhales\Support\Collection|array|mixed  $notifiables
      * @param  mixed  $notification
      * @return void
      */

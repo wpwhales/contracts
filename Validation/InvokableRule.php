@@ -1,6 +1,6 @@
 <?php
 
-namespace Illuminate\Contracts\Validation;
+namespace WPWhales\Contracts\Validation;
 
 use Closure;
 
@@ -14,7 +14,7 @@ interface InvokableRule
      *
      * @param  string  $attribute
      * @param  mixed  $value
-     * @param  \Closure(string): \Illuminate\Translation\PotentiallyTranslatedString  $fail
+     * @param  \Closure(string): \WPWhales\Translation\PotentiallyTranslatedString  $fail
      * @return void
      */
     public function __invoke(string $attribute, mixed $value, Closure $fail);

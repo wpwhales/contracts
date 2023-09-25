@@ -1,6 +1,6 @@
 <?php
 
-namespace Illuminate\Contracts\Redis;
+namespace WPWhales\Contracts\Redis;
 
 use Exception;
 

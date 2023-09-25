@@ -1,8 +1,8 @@
 <?php
 
-namespace Illuminate\Contracts\View;
+namespace WPWhales\Contracts\View;
 
-use Illuminate\Contracts\Support\Renderable;
+use WPWhales\Contracts\Support\Renderable;
 
 interface View extends Renderable
 {

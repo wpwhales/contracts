@@ -1,6 +1,6 @@
 <?php
 
-namespace Illuminate\Contracts\Mail;
+namespace WPWhales\Contracts\Mail;
 
 interface Factory
 {
@@ -8,7 +8,7 @@ interface Factory
      * Get a mailer instance by name.
      *
      * @param  string|null  $name
-     * @return \Illuminate\Contracts\Mail\Mailer
+     * @return \WPWhales\Contracts\Mail\Mailer
      */
     public function mailer($name = null);
 }

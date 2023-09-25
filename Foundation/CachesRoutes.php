@@ -1,6 +1,6 @@
 <?php
 
-namespace Illuminate\Contracts\Foundation;
+namespace WPWhales\Contracts\Foundation;
 
 interface CachesRoutes
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace Illuminate\Contracts\Filesystem;
+namespace WPWhales\Contracts\Filesystem;
 
 interface Filesystem
 {
@@ -46,7 +46,7 @@ interface Filesystem
      * Write the contents of a file.
      *
      * @param  string  $path
-     * @param  \Psr\Http\Message\StreamInterface|\Illuminate\Http\File|\Illuminate\Http\UploadedFile|string|resource  $contents
+     * @param  \Psr\Http\Message\StreamInterface|\WPWhales\Http\File|\WPWhales\Http\UploadedFile|string|resource  $contents
      * @param  mixed  $options
      * @return bool
      */

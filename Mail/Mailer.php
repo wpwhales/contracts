@@ -1,6 +1,6 @@
 <?php
 
-namespace Illuminate\Contracts\Mail;
+namespace WPWhales\Contracts\Mail;
 
 interface Mailer
 {
@@ -8,7 +8,7 @@ interface Mailer
      * Begin the process of mailing a mailable class instance.
      *
      * @param  mixed  $users
-     * @return \Illuminate\Mail\PendingMail
+     * @return \WPWhales\Mail\PendingMail
      */
     public function to($users);
 
@@ -16,7 +16,7 @@ interface Mailer
      * Begin the process of mailing a mailable class instance.
      *
      * @param  mixed  $users
-     * @return \Illuminate\Mail\PendingMail
+     * @return \WPWhales\Mail\PendingMail
      */
     public function bcc($users);
 
@@ -25,17 +25,17 @@ interface Mailer
      *
      * @param  string  $text
      * @param  mixed  $callback
-     * @return \Illuminate\Mail\SentMessage|null
+     * @return \WPWhales\Mail\SentMessage|null
      */
     public function raw($text, $callback);
 
     /**
      * Send a new message using a view.
      *
-     * @param  \Illuminate\Contracts\Mail\Mailable|string|array  $view
+     * @param  \WPWhales\Contracts\Mail\Mailable|string|array  $view
      * @param  array  $data
      * @param  \Closure|string|null  $callback
-     * @return \Illuminate\Mail\SentMessage|null
+     * @return \WPWhales\Mail\SentMessage|null
      */
     public function send($view, array $data = [], $callback = null);
 }

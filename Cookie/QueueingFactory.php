@@ -1,6 +1,6 @@
 <?php
 
-namespace Illuminate\Contracts\Cookie;
+namespace WPWhales\Contracts\Cookie;
 
 interface QueueingFactory extends Factory
 {

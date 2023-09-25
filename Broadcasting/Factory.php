@@ -1,6 +1,6 @@
 <?php
 
-namespace Illuminate\Contracts\Broadcasting;
+namespace WPWhales\Contracts\Broadcasting;
 
 interface Factory
 {
@@ -8,7 +8,7 @@ interface Factory
      * Get a broadcaster implementation by name.
      *
      * @param  string|null  $name
-     * @return \Illuminate\Contracts\Broadcasting\Broadcaster
+     * @return \WPWhales\Contracts\Broadcasting\Broadcaster
      */
     public function connection($name = null);
 }

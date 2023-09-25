@@ -1,6 +1,6 @@
 <?php
 
-namespace Illuminate\Contracts\Container;
+namespace WPWhales\Contracts\Container;
 
 use Exception;
 use Psr\Container\ContainerExceptionInterface;

@@ -1,13 +1,13 @@
 <?php
 
-namespace Illuminate\Contracts\Support;
+namespace WPWhales\Contracts\Support;
 
 interface MessageProvider
 {
     /**
      * Get the messages for the instance.
      *
-     * @return \Illuminate\Contracts\Support\MessageBag
+     * @return \WPWhales\Contracts\Support\MessageBag
      */
     public function getMessageBag();
 }

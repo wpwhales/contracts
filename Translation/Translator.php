@@ -1,6 +1,6 @@
 <?php
 
-namespace Illuminate\Contracts\Translation;
+namespace WPWhales\Contracts\Translation;
 
 interface Translator
 {

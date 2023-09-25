@@ -1,6 +1,6 @@
 <?php
 
-namespace Illuminate\Contracts\Auth;
+namespace WPWhales\Contracts\Auth;
 
 interface PasswordBrokerFactory
 {
@@ -8,7 +8,7 @@ interface PasswordBrokerFactory
      * Get a password broker instance by name.
      *
      * @param  string|null  $name
-     * @return \Illuminate\Contracts\Auth\PasswordBroker
+     * @return \WPWhales\Contracts\Auth\PasswordBroker
      */
     public function broker($name = null);
 }

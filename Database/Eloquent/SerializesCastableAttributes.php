@@ -1,15 +1,15 @@
 <?php
 
-namespace Illuminate\Contracts\Database\Eloquent;
+namespace WPWhales\Contracts\Database\Eloquent;
 
-use Illuminate\Database\Eloquent\Model;
+use WPWhales\Database\Eloquent\Model;
 
 interface SerializesCastableAttributes
 {
     /**
      * Serialize the attribute when converting the model to an array.
      *
-     * @param  \Illuminate\Database\Eloquent\Model  $model
+     * @param  \WPWhales\Database\Eloquent\Model  $model
      * @param  string  $key
      * @param  mixed  $value
      * @param  array  $attributes

@@ -1,6 +1,6 @@
 <?php
 
-namespace Illuminate\Contracts\View;
+namespace WPWhales\Contracts\View;
 
 interface Factory
 {
@@ -16,9 +16,9 @@ interface Factory
      * Get the evaluated view contents for the given path.
      *
      * @param  string  $path
-     * @param  \Illuminate\Contracts\Support\Arrayable|array  $data
+     * @param  \WPWhales\Contracts\Support\Arrayable|array  $data
      * @param  array  $mergeData
-     * @return \Illuminate\Contracts\View\View
+     * @return \WPWhales\Contracts\View\View
      */
     public function file($path, $data = [], $mergeData = []);
 
@@ -26,9 +26,9 @@ interface Factory
      * Get the evaluated view contents for the given view.
      *
      * @param  string  $view
-     * @param  \Illuminate\Contracts\Support\Arrayable|array  $data
+     * @param  \WPWhales\Contracts\Support\Arrayable|array  $data
      * @param  array  $mergeData
-     * @return \Illuminate\Contracts\View\View
+     * @return \WPWhales\Contracts\View\View
      */
     public function make($view, $data = [], $mergeData = []);
 

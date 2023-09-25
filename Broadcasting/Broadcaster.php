@@ -1,13 +1,13 @@
 <?php
 
-namespace Illuminate\Contracts\Broadcasting;
+namespace WPWhales\Contracts\Broadcasting;
 
 interface Broadcaster
 {
     /**
      * Authenticate the incoming request for a given channel.
      *
-     * @param  \Illuminate\Http\Request  $request
+     * @param  \WPWhales\Http\Request  $request
      * @return mixed
      */
     public function auth($request);
@@ -15,7 +15,7 @@ interface Broadcaster
     /**
      * Return the valid authentication response.
      *
-     * @param  \Illuminate\Http\Request  $request
+     * @param  \WPWhales\Http\Request  $request
      * @param  mixed  $result
      * @return mixed
      */
@@ -29,7 +29,7 @@ interface Broadcaster
      * @param  array  $payload
      * @return void
      *
-     * @throws \Illuminate\Broadcasting\BroadcastException
+     * @throws \WPWhales\Broadcasting\BroadcastException
      */
     public function broadcast(array $channels, $event, array $payload = []);
 }

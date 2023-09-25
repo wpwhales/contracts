@@ -1,6 +1,6 @@
 <?php
 
-namespace Illuminate\Contracts\Broadcasting;
+namespace WPWhales\Contracts\Broadcasting;
 
 interface ShouldBeUnique
 {

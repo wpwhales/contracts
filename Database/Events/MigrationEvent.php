@@ -1,6 +1,6 @@
 <?php
 
-namespace Illuminate\Contracts\Database\Events;
+namespace WPWhales\Contracts\Database\Events;
 
 interface MigrationEvent
 {

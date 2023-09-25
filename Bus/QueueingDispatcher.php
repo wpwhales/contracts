@@ -1,6 +1,6 @@
 <?php
 
-namespace Illuminate\Contracts\Bus;
+namespace WPWhales\Contracts\Bus;
 
 interface QueueingDispatcher extends Dispatcher
 {
@@ -8,15 +8,15 @@ interface QueueingDispatcher extends Dispatcher
      * Attempt to find the batch with the given ID.
      *
      * @param  string  $batchId
-     * @return \Illuminate\Bus\Batch|null
+     * @return \WPWhales\Bus\Batch|null
      */
     public function findBatch(string $batchId);
 
     /**
      * Create a new batch of queueable jobs.
      *
-     * @param  \Illuminate\Support\Collection|array  $jobs
-     * @return \Illuminate\Bus\PendingBatch
+     * @param  \WPWhales\Support\Collection|array  $jobs
+     * @return \WPWhales\Bus\PendingBatch
      */
     public function batch($jobs);
 

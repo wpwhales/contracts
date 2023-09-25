@@ -1,15 +1,15 @@
 <?php
 
-namespace Illuminate\Contracts\Validation;
+namespace WPWhales\Contracts\Validation;
 
-use Illuminate\Validation\Validator;
+use WPWhales\Validation\Validator;
 
 interface ValidatorAwareRule
 {
     /**
      * Set the current validator.
      *
-     * @param  \Illuminate\Validation\Validator  $validator
+     * @param  \WPWhales\Validation\Validator  $validator
      * @return $this
      */
     public function setValidator(Validator $validator);

@@ -1,6 +1,6 @@
 <?php
 
-namespace Illuminate\Contracts\Config;
+namespace WPWhales\Contracts\Config;
 
 interface Repository
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace Illuminate\Contracts\Console;
+namespace WPWhales\Contracts\Console;
 
 interface Isolatable
 {

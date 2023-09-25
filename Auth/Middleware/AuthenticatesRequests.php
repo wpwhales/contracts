@@ -1,6 +1,6 @@
 <?php
 
-namespace Illuminate\Contracts\Auth\Middleware;
+namespace WPWhales\Contracts\Auth\Middleware;
 
 interface AuthenticatesRequests
 {

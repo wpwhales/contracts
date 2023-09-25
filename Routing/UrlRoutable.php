@@ -1,6 +1,6 @@
 <?php
 
-namespace Illuminate\Contracts\Routing;
+namespace WPWhales\Contracts\Routing;
 
 interface UrlRoutable
 {
@@ -23,7 +23,7 @@ interface UrlRoutable
      *
      * @param  mixed  $value
      * @param  string|null  $field
-     * @return \Illuminate\Database\Eloquent\Model|null
+     * @return \WPWhales\Database\Eloquent\Model|null
      */
     public function resolveRouteBinding($value, $field = null);
 
@@ -33,7 +33,7 @@ interface UrlRoutable
      * @param  string  $childType
      * @param  mixed  $value
      * @param  string|null  $field
-     * @return \Illuminate\Database\Eloquent\Model|null
+     * @return \WPWhales\Database\Eloquent\Model|null
      */
     public function resolveChildRouteBinding($childType, $value, $field);
 }

@@ -1,6 +1,6 @@
 <?php
 
-namespace Illuminate\Contracts\Database;
+namespace WPWhales\Contracts\Database;
 
 class ModelIdentifier
 {

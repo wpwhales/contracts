@@ -1,6 +1,6 @@
 <?php
 
-namespace Illuminate\Contracts\Redis;
+namespace WPWhales\Contracts\Redis;
 
 interface Connector
 {
@@ -9,7 +9,7 @@ interface Connector
      *
      * @param  array  $config
      * @param  array  $options
-     * @return \Illuminate\Redis\Connections\Connection
+     * @return \WPWhales\Redis\Connections\Connection
      */
     public function connect(array $config, array $options);
 
@@ -19,7 +19,7 @@ interface Connector
      * @param  array  $config
      * @param  array  $clusterOptions
      * @param  array  $options
-     * @return \Illuminate\Redis\Connections\Connection
+     * @return \WPWhales\Redis\Connections\Connection
      */
     public function connectToCluster(array $config, array $clusterOptions, array $options);
 }

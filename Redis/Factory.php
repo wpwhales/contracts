@@ -1,6 +1,6 @@
 <?php
 
-namespace Illuminate\Contracts\Redis;
+namespace WPWhales\Contracts\Redis;
 
 interface Factory
 {
@@ -8,7 +8,7 @@ interface Factory
      * Get a Redis connection by name.
      *
      * @param  string|null  $name
-     * @return \Illuminate\Redis\Connections\Connection
+     * @return \WPWhales\Redis\Connections\Connection
      */
     public function connection($name = null);
 }

@@ -1,6 +1,6 @@
 <?php
 
-namespace Illuminate\Contracts\Queue;
+namespace WPWhales\Contracts\Queue;
 
 interface Queue
 {
@@ -78,7 +78,7 @@ interface Queue
      * Pop the next job off of the queue.
      *
      * @param  string|null  $queue
-     * @return \Illuminate\Contracts\Queue\Job|null
+     * @return \WPWhales\Contracts\Queue\Job|null
      */
     public function pop($queue = null);
 

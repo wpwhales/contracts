@@ -1,6 +1,6 @@
 <?php
 
-namespace Illuminate\Contracts\Cache;
+namespace WPWhales\Contracts\Cache;
 
 interface Factory
 {
@@ -8,7 +8,7 @@ interface Factory
      * Get a cache store instance by name.
      *
      * @param  string|null  $name
-     * @return \Illuminate\Contracts\Cache\Repository
+     * @return \WPWhales\Contracts\Cache\Repository
      */
     public function store($name = null);
 }

@@ -1,5 +1,5 @@
 {
-    "name": "illuminate/contracts",
+    "name": "wpwhales/contracts",
     "description": "The Illuminate Contracts package.",
     "license": "MIT",
     "homepage": "https://laravel.com",
@@ -20,7 +20,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Illuminate\\Contracts\\": ""
+            "WPWhales\\Contracts\\": ""
         }
     },
     "extra": {

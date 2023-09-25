@@ -1,6 +1,6 @@
 <?php
 
-namespace Illuminate\Contracts\Routing;
+namespace WPWhales\Contracts\Routing;
 
 interface Registrar
 {
@@ -9,7 +9,7 @@ interface Registrar
      *
      * @param  string  $uri
      * @param  array|string|callable  $action
-     * @return \Illuminate\Routing\Route
+     * @return \WPWhales\Routing\Route
      */
     public function get($uri, $action);
 
@@ -18,7 +18,7 @@ interface Registrar
      *
      * @param  string  $uri
      * @param  array|string|callable  $action
-     * @return \Illuminate\Routing\Route
+     * @return \WPWhales\Routing\Route
      */
     public function post($uri, $action);
 
@@ -27,7 +27,7 @@ interface Registrar
      *
      * @param  string  $uri
      * @param  array|string|callable  $action
-     * @return \Illuminate\Routing\Route
+     * @return \WPWhales\Routing\Route
      */
     public function put($uri, $action);
 
@@ -36,7 +36,7 @@ interface Registrar
      *
      * @param  string  $uri
      * @param  array|string|callable  $action
-     * @return \Illuminate\Routing\Route
+     * @return \WPWhales\Routing\Route
      */
     public function delete($uri, $action);
 
@@ -45,7 +45,7 @@ interface Registrar
      *
      * @param  string  $uri
      * @param  array|string|callable  $action
-     * @return \Illuminate\Routing\Route
+     * @return \WPWhales\Routing\Route
      */
     public function patch($uri, $action);
 
@@ -54,7 +54,7 @@ interface Registrar
      *
      * @param  string  $uri
      * @param  array|string|callable  $action
-     * @return \Illuminate\Routing\Route
+     * @return \WPWhales\Routing\Route
      */
     public function options($uri, $action);
 
@@ -64,7 +64,7 @@ interface Registrar
      * @param  array|string  $methods
      * @param  string  $uri
      * @param  array|string|callable  $action
-     * @return \Illuminate\Routing\Route
+     * @return \WPWhales\Routing\Route
      */
     public function match($methods, $uri, $action);
 
@@ -74,7 +74,7 @@ interface Registrar
      * @param  string  $name
      * @param  string  $controller
      * @param  array  $options
-     * @return \Illuminate\Routing\PendingResourceRegistration
+     * @return \WPWhales\Routing\PendingResourceRegistration
      */
     public function resource($name, $controller, array $options = []);
 
@@ -90,15 +90,15 @@ interface Registrar
     /**
      * Substitute the route bindings onto the route.
      *
-     * @param  \Illuminate\Routing\Route  $route
-     * @return \Illuminate\Routing\Route
+     * @param  \WPWhales\Routing\Route  $route
+     * @return \WPWhales\Routing\Route
      */
     public function substituteBindings($route);
 
     /**
      * Substitute the implicit Eloquent model bindings for the route.
      *
-     * @param  \Illuminate\Routing\Route  $route
+     * @param  \WPWhales\Routing\Route  $route
      * @return void
      */
     public function substituteImplicitBindings($route);

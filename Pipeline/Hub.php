@@ -1,6 +1,6 @@
 <?php
 
-namespace Illuminate\Contracts\Pipeline;
+namespace WPWhales\Contracts\Pipeline;
 
 interface Hub
 {

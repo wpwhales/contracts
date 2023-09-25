@@ -1,6 +1,6 @@
 <?php
 
-namespace Illuminate\Contracts\Auth\Access;
+namespace WPWhales\Contracts\Auth\Access;
 
 interface Authorizable
 {

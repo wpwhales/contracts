@@ -1,6 +1,6 @@
 <?php
 
-namespace Illuminate\Contracts\Validation;
+namespace WPWhales\Contracts\Validation;
 
 interface Factory
 {
@@ -11,7 +11,7 @@ interface Factory
      * @param  array  $rules
      * @param  array  $messages
      * @param  array  $attributes
-     * @return \Illuminate\Contracts\Validation\Validator
+     * @return \WPWhales\Contracts\Validation\Validator
      */
     public function make(array $data, array $rules, array $messages = [], array $attributes = []);
 

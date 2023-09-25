@@ -1,13 +1,13 @@
 <?php
 
-namespace Illuminate\Contracts\Database\Eloquent;
+namespace WPWhales\Contracts\Database\Eloquent;
 
 interface DeviatesCastableAttributes
 {
     /**
      * Increment the attribute.
      *
-     * @param  \Illuminate\Database\Eloquent\Model  $model
+     * @param  \WPWhales\Database\Eloquent\Model  $model
      * @param  string  $key
      * @param  mixed  $value
      * @param  array  $attributes
@@ -18,7 +18,7 @@ interface DeviatesCastableAttributes
     /**
      * Decrement the attribute.
      *
-     * @param  \Illuminate\Database\Eloquent\Model  $model
+     * @param  \WPWhales\Database\Eloquent\Model  $model
      * @param  string  $key
      * @param  mixed  $value
      * @param  array  $attributes

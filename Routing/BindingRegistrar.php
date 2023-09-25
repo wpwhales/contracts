@@ -1,6 +1,6 @@
 <?php
 
-namespace Illuminate\Contracts\Routing;
+namespace WPWhales\Contracts\Routing;
 
 interface BindingRegistrar
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace Illuminate\Contracts\Session;
+namespace WPWhales\Contracts\Session;
 
 interface Session
 {
@@ -197,7 +197,7 @@ interface Session
     /**
      * Set the request on the handler instance.
      *
-     * @param  \Illuminate\Http\Request  $request
+     * @param  \WPWhales\Http\Request  $request
      * @return void
      */
     public function setRequestOnHandler($request);

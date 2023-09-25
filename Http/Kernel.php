@@ -1,6 +1,6 @@
 <?php
 
-namespace Illuminate\Contracts\Http;
+namespace WPWhales\Contracts\Http;
 
 interface Kernel
 {
@@ -31,7 +31,7 @@ interface Kernel
     /**
      * Get the Laravel application instance.
      *
-     * @return \Illuminate\Contracts\Foundation\Application
+     * @return \WPWhales\Contracts\Foundation\Application
      */
     public function getApplication();
 }
